@@ -3,9 +3,13 @@ This project implements an image encryption and invisible watermarking pipeline 
 
 Features
 Hybrid Watermarking: Combines DCT and LSB for robust invisible watermarking.
+
 Pixel Shuffling: Encrypts images by scrambling pixels with a key.
+
 Watermark Embedding: Embed an invisible watermark into a cover image.
+
 Watermark Extraction: Extract watermark from the encrypted/decrypted image using the same key.
+
 Complete pipeline: Watermark → Encrypt → Decrypt → Extract.
 
 Tech Stack
