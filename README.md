@@ -1,15 +1,12 @@
 Image Watermarking and Encryption Project
+
 This project implements an image encryption and invisible watermarking pipeline using a combination of DCT (Discrete Cosine Transform) and LSB (Least Significant Bit) hybrid watermarking, along with pixel shuffling. It enables embedding, encrypting, and extracting invisible watermarks from images.
 
 Features
 Hybrid Watermarking: Combines DCT and LSB for robust invisible watermarking.
-
 Pixel Shuffling: Encrypts images by scrambling pixels with a key.
-
 Watermark Embedding: Embed an invisible watermark into a cover image.
-
 Watermark Extraction: Extract watermark from the encrypted/decrypted image using the same key.
-
 Complete pipeline: Watermark → Encrypt → Decrypt → Extract.
 
 Tech Stack
@@ -22,6 +19,7 @@ Matplotlib (for visualization)
 Getting Started
 Clone this repository:
 git clone https://github.com/TejaswiRudraraju1/image-watermarking-project.git
+
 cd image-watermarking-project
 
 
